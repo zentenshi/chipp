@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+/* Styles for chat icon */
+.chat-icon {
+    cursor: pointer;
+    border-radius: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.chat-icon-close {
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    align-content: center;
+}
+
+.chat-icon-left {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+}
+
+.chat-icon-right {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+/* Styles for chat box */
+.chat-box {
+    border-radius: 20px;
+    position: fixed;
+    right: 30px;
+    bottom: 90px;
+    width: 400px;
+    height: 600px;
+    background-color: #f5f5f5;
+    box-shadow: 0px 5px 40px rgba(0, 0, 0, 0.16);
+}
+
+.close-btn {
+    float: right;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.chat-box-header {
+    font-family: 'Segoe UI', sans-serif;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-color: #990000;
+    padding: 10px 15px;
+    height: 54px;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.chat-box-header .chat-box-logo-container {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    background-color: white;
+    border-radius: 25px;
+}
+
+.chat-box-header img {
+    padding: 5px;
+    height: 40px;
+    width: 40px;
+    object-fit: contain;
+    border-radius: 100%;
+}
+
+.chat-box-header h1 {
+    font-size: 18px;
+}
+
+.chat-box-header-text {
+    display: block;
+    padding: 0;
+    margin-left: 10px;
+    align-items: center;
+}
+
+.chat-box-header-text h1 {
+    margin: 0;
+}
+
+.chat-box-header-text p {
+    margin: 0;
+}
+
+input[type="text"] {
+    width: 100%;
+}
+
+button {
+    margin: 5px;
+}
+
+.child-div {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: white;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    width: 250px;
+    /* Fallback for older browsers */
+    /* background: -webkit-linear-gradient(top, #fd2020, #990000); */
+    /* For Firefox */
+    /* background: -moz-linear-gradient(top, #fd2020, #990000); */
+
+    padding: 1px 10px 1px 1px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transition: transform 0.2s ease;
+
+}
+
+.child-div span {
+    margin-inline-start: 5px;
+}
+
+.child-div:hover {
+    /* animation: shake 0.3s ease; */
+    transform: scale(1.05);
+}
+
+.child-div img {
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+    border-radius: 100%;
+    background-color: white;
+    margin-right: 5px;
+    object-fit: contain;
+}
+
+.chatpane {
+    width: 100%;
+    height: 526px;
+}
+
+.webchat {
+    height: -webkit-fill-available;
+}
+
+/* Define the shake animation */
+@keyframes shake {
+    0% {
+        transform: translateX(0);
+    }
+
+    25% {
+        transform: translateX(-5px);
+    }
+
+    50% {
+        transform: translateX(5px);
+    }
+
+    75% {
+        transform: translateX(-2px);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.webchat--css-rpwaj-1tdc372.webchat__basic-transcript {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    position: relative;
+    background-color: black;
+}
