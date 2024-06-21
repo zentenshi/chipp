@@ -96,7 +96,7 @@ theme_mode: # [light | dark]
 cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar: "https://static.vecteezy.com/system/resources/previews/013/076/707/original/japanese-clan-kamon-crest-symbol-japanese-ancient-family-stamp-symbol-japanese-symbol-used-to-decorate-and-identify-people-in-family-the-icon-is-isolated-on-a-white-background-vector.jpg"
+avatar: https://static.vecteezy.com/system/resources/previews/013/076/707/original/japanese-clan-kamon-crest-symbol-japanese-ancient-family-stamp-symbol-japanese-symbol-used-to-decorate-and-identify-people-in-family-the-icon-is-isolated-on-a-white-background-vector.jpg
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
